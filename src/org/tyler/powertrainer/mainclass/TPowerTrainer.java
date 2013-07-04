@@ -58,8 +58,7 @@ public class TPowerTrainer extends ActiveScript implements PaintListener,Message
 		return 600;
 	}
 
-	private final String[] messageString = {"You get some logs",
-			"You manage to mine"};
+	private final String[] messageString = {"You get some logs","You manage to mine"};
 
 	@Override
 	public void messageReceived(MessageEvent event) {
