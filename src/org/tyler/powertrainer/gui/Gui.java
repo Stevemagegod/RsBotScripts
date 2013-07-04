@@ -24,7 +24,7 @@ public class Gui extends JFrame {
 	private JCheckBox prioritiseBox;
 	
 	public Gui() {
-		super("TPowerSkilling");
+		super("TPowerTrainer");
 		setDefaultCloseOperation(HIDE_ON_CLOSE);
 		setSize(245, 140);
 		getContentPane().setBackground(Color.WHITE);
