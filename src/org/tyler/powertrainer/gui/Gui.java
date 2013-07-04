@@ -63,7 +63,7 @@ public class Gui extends JFrame {
 		@Override
 		public void actionPerformed(ActionEvent event) {
 			if (event.getSource().equals(startButton)) {
-				String idsText = idsTextField.getText().replaceAll("\\s", "");
+				final String idsText = idsTextField.getText().replaceAll("\\s", "");String idsText = idsTextField.getText().replaceAll("\\s", "");
 
 				if (idsText.contains(",")) {
 					final String[] stringIds = idsText.split(",");
